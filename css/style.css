@@ -38,10 +38,78 @@ h2 {
     padding: 80px;
     line-height: 25px;
 }
-.col-md-3 img{
-margin: 20px;
-width: 100%;
+.img1{
+border: solid white;
+background-image: url(../portfolio/work4.jpg);
+background-size: contain;
+height: 300px;
+background-repeat: no-repeat;
+padding: 50px;
 }
+
+.img2{
+    border: solid white;
+    background-image: url(../portfolio/work3.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    }  
+.img3{
+    border: solid white;
+    background-image: url(../portfolio/work2.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    }  
+
+.img4 {
+    border: solid white;
+    background-image: url(../portfolio/work1.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    }  
+
+.img5{
+    border: solid white;
+    background-image: url(../portfolio/work5.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    }  
+
+.img6 {
+    border: solid white;
+    background-image: url(../portfolio/work6.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    }  
+.img7 {
+    border: solid white;
+    background-image: url(../portfolio/work7.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    }  
+
+.img8 {
+    border: solid white;
+    background-image: url(../portfolio/work8.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    padding: 80px;
+    
+}
+
+
 #contactUs{
     background: url(../backgrounds/s_image.jpg);
     background-size: cover;
