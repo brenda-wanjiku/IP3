@@ -131,3 +131,8 @@ background-repeat: no-repeat;
     border: solid white;
     border-width: 0.5px;
 }
+#inputEmail{
+    background: transparent;
+    border: solid white;
+    border-width: 0.5px; 
+}
