@@ -44,7 +44,8 @@ background-image: url(../portfolio/work4.jpg);
 background-size: contain;
 height: 300px;
 background-repeat: no-repeat;
-padding: 50px;
+padding: 80px;
+margin: 50px;
 }
 
 .img2{
@@ -53,7 +54,8 @@ padding: 50px;
     background-size: contain;
     height: 300px;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 80px;
+    margin: 50px;
     }  
 .img3{
     border: solid white;
@@ -61,7 +63,8 @@ padding: 50px;
     background-size: contain;
     height: 300px;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: 80px;
+    margin: 50px;
     }  
 
 .img4 {
@@ -71,6 +74,7 @@ padding: 50px;
     height: 300px;
     background-repeat: no-repeat;
     padding: 80px;
+    margin: 50px;
     }  
 
 .img5{
@@ -80,6 +84,7 @@ padding: 50px;
     height: 300px;
     background-repeat: no-repeat;
     padding: 80px;
+    margin: 50px;
     }  
 
 .img6 {
@@ -89,6 +94,7 @@ padding: 50px;
     height: 300px;
     background-repeat: no-repeat;
     padding: 80px;
+    margin: 50px;
     }  
 .img7 {
     border: solid white;
@@ -97,6 +103,7 @@ padding: 50px;
     height: 300px;
     background-repeat: no-repeat;
     padding: 80px;
+    margin: 50px;
     }  
 
 .img8 {
@@ -106,6 +113,7 @@ padding: 50px;
     height: 300px;
     background-repeat: no-repeat;
     padding: 80px;
+    margin: 50px;
     
 }
 
