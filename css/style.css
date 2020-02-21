@@ -35,77 +35,93 @@ h2 {
     background-size: cover;
     height: 250px;
     color: white;
-    padding: 80px;
+    padding: 50px;
     line-height: 25px;
 }
 .img1{
 border: solid white;
 background-image: url(../portfolio/work4.jpg);
 background-size: contain;
-height: 300px;
+height: 200px;
+width: 200px;
 background-repeat: no-repeat;
-margin: 50px;
+padding: 20px;
+margin: 5px;
 }
 
 .img2{
     border: solid white;
     background-image: url(../portfolio/work3.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 .img3{
     border: solid white;
     background-image: url(../portfolio/work2.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 
 .img4 {
     border: solid white;
     background-image: url(../portfolio/work1.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 
 .img5{
     border: solid white;
     background-image: url(../portfolio/work5.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 
 .img6 {
     border: solid white;
     background-image: url(../portfolio/work6.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 .img7 {
     border: solid white;
     background-image: url(../portfolio/work7.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     }  
 
 .img8 {
     border: solid white;
     background-image: url(../portfolio/work8.jpg);
     background-size: contain;
-    height: 300px;
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
-    margin: 50px;
+    padding: 20px;
+    margin: 5px;
     
 }
 
