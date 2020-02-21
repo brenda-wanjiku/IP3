@@ -1,0 +1,50 @@
+body {
+    font-family:'Source Sans Pro';
+    font-size: 10px;
+}
+.container {
+    text-align: center;
+}
+#Delani {
+     background: url(../backgrounds/h_img.jpg);
+     background-size:cover ; 
+     height: 650px;
+     padding: 200px;
+
+}
+h1 {
+    color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 10px;
+}
+#mouse {
+    padding: 100px;
+}
+.jumbotron {
+    background-color: white;
+    height: 200px;
+    padding: 30px;
+}
+#services{
+    background: url(../backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    padding: 80px;
+    line-height: 25px;
+}
+.col-md-3 img{
+margin: 20px;
+width: 100%;
+}
+#contactUs{
+    background: url(../backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
