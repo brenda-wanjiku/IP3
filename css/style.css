@@ -158,3 +158,10 @@ background-repeat: no-repeat;
 .img1 :hover {
     opacity: 1;
 }
+.icon {
+    margin-top: 50px;
+    padding: 20px;
+}
+.icons p {
+    margin-top: 40px;
+}
