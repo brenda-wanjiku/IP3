@@ -35,7 +35,7 @@ h2 {
     padding: 30px;
 }
 #services{
-    background: url(../backgrounds/c_image.jpg);
+    background: url(../backgrounds/s_image.jpg);
     background-size: cover;
     height: 250px;
     color: white;
@@ -119,7 +119,7 @@ background-repeat: no-repeat;
 
 
 #contactUs{
-    background: url(../backgrounds/s_image.jpg);
+    background: url(../backgrounds/c_image.jpg);
     background-size: cover;
     background-position: center;
     
@@ -151,6 +151,9 @@ background-repeat: no-repeat;
 #product {
     display: none;
 }
+.form-row {
+    justify-content: center;
+}
 .transparent ::placeholder   {
     color:white;
     opacity: 1;
@@ -165,3 +168,4 @@ background-repeat: no-repeat;
 .icons p {
     margin-top: 40px;
 }
+.co
