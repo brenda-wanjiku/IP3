@@ -12,6 +12,29 @@ body {
      padding: 200px;
 
 }
+#mouse {
+    padding: 100px;
+}
+#contactUs{
+    background: url(../backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 50px;
+}
+#services{
+    background: url(../backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+    padding: 100px;
+    line-height: 40px;
+    background-position: center;
+}
+#whatWeDo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 h1 {
     color: aliceblue;
     margin-top: 10px;
@@ -20,28 +43,22 @@ h1 {
 h2 {
     color: aliceblue;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
+  
+}
+h3 {
+    font-weight: bolder;
 }
 
-#contactUs {
-    color: white;
-}
-#mouse {
-    padding: 100px;
-}
+
 .jumbotron {
     background-color: white;
-    height: 200px;
+    height: 300px;
     padding: 30px;
+    line-height: 40px;
+    text-overflow: ellipsis;
 }
-#services{
-    background: url(../backgrounds/s_image.jpg);
-    background-size: cover;
-    height: 250px;
-    color: white;
-    padding: 50px;
-    line-height: 25px;
-}
+
 .img1{
 border: solid white;
 background-image: url(../portfolio/work4.jpg);
@@ -118,12 +135,7 @@ background-repeat: no-repeat;
 }
 
 
-#contactUs{
-    background: url(../backgrounds/c_image.jpg);
-    background-size: cover;
-    background-position: center;
-    
-}
+
 .row1 {
     margin-bottom: 50px;
 }
@@ -168,4 +180,3 @@ background-repeat: no-repeat;
 .icons p {
     margin-top: 40px;
 }
-.co
