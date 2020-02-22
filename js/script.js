@@ -11,8 +11,8 @@ $(document).ready(function () {
 
     });
 
-    $(".designBlock").click(function () {
-        $("#design").toggle()
+    $(".productBlock").click(function () {
+        $("#product").toggle()
         $(".clickable").toggle()
 
     });
