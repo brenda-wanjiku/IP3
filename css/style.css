@@ -155,3 +155,6 @@ background-repeat: no-repeat;
     color:white;
     opacity: 1;
 }
+.img1 :hover {
+    opacity: 1;
+}
