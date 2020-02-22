@@ -142,4 +142,6 @@ background-repeat: no-repeat;
     border: solid white;
     border-width: 0.5px; 
 }
-
+ #design {
+    display: none;
+} 

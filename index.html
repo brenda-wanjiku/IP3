@@ -47,28 +47,34 @@
         <div id="whatWeDo">
             <h3>WHAT WE DO</h3>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="services_icons/design_icon.png" alt="image of design icon">
+                <div class="col-md-4 designBlock ">
+                    <img class="clickable" src="services_icons/design_icon.png" alt="image of design icon">
                     <h4>DESIGN</h4>
-                    <p>Our design practice offers a full range of services including brand strategy,
-                        interaction and visual design and user experience testing.</p>
-                    <p>Throughout your project,our designers create and implement visual design and
-                        workflows, solicit user feedback and work with you to make sure what gets built
-                        is what is needed.</p>
+                    <div id="design">
+                        <p>Our design practice offers a full range of services including brand strategy,
+                            interaction and visual design and user experience testing.</p>
+                        <p>Throughout your project,our designers create and implement visual design and
+                            workflows, solicit user feedback and work with you to make sure what gets built
+                            is what is needed.</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="services_icons/dev_icon.png" alt="image of development icon">
+                <div class="col-md-4 serviceBlock">
+                    <img class="clickable" src="services_icons/dev_icon.png" alt="image of development icon">
                     <h4>Development</h4>
-                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies</p>
-                    <p>They collaborate with your team to write,and improve code on a daily basis using proven
-                        practices such as test-driven development and pair programming</p>
+                    <div id="development">
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies</p>
+                        <p>They collaborate with your team to write,and improve code on a daily basis using proven
+                            practices such as test-driven development and pair programming</p>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 productBlock">
                     <h4>PRODUCT MANAGEMENT</h4>
-                    <img src="services_icons/product_icon.png" alt="image of product icon">
-                    <p>Planning and development is interactive.Because we are constantly coding and testing,
-                        the products we build are always ready to go live.</p>
-                    <p>The iterative process allows for changes as business requirements evolve.</p>
+                    <img class="clickable" src="services_icons/product_icon.png" alt="image of product icon">
+                    <div id="design">
+                        <p>Planning and development is interactive.Because we are constantly coding and testing,
+                            the products we build are always ready to go live.</p>
+                        <p>The iterative process allows for changes as business requirements evolve.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,17 +103,19 @@
         <form>
             <div id="contactUs">
                 <h4>CONTACT US</h3>
-                <div class="form-row">
-                    <div class="form-group col-md-6 transparent">
-                        <input type="text" placeholder="Name" class="form-control" id="inputName">
+                    <div class="form-row">
+                        <div class="form-group col-md-6 transparent">
+                            <input type="text" placeholder="Name" class="form-control" id="inputName">
+                        </div>
+                        <div class="form-group col-md-6 transparent">
+                            <label for="inputEmail">Email address</label>
+                            <input type="email" placeholder="Email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="form-group col-lg-8 transparent">
+                            <textarea type="text" placeholder="Your message here..." rows="10" class="form-control"
+                                id="textMessage"></textarea>
+                        </div>
                     </div>
-                    <div class="form-group col-md-6 transparent">
-                        <input type="email" placeholder="Email" class="form-control" id="inputEmail">
-                    </div>
-                    <div class="form-group col-lg-8 transparent">
-                        <textarea type="text" placeholder="Your message here..." rows="10" class="form-control" id="textMessage"></textarea>
-                    </div>
-                </div>
         </form>
         <div>
             <img>
