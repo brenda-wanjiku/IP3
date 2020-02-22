@@ -144,4 +144,7 @@ background-repeat: no-repeat;
 }
  #design {
     display: none;
-} 
+}
+#development {
+    display: none;
+}
