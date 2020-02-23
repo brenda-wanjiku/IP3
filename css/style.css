@@ -180,17 +180,18 @@ background-repeat: no-repeat;
 .icons p {
     margin-top: 40px;
 }
-#work1 {
+/*#work1 {
     display: none;
     color: black;
     background: white;
     text-align: center;
     justify-content: center;
     margin: 100px;
+    transform: scale(1.2);
     position: absolute;
+    transform: translateY(-50%);*/
 
-
-/*.img1 {
+.img1 {
     overflow: hidden;
     transform: scaleY();
     transition: transform 2s;
@@ -200,7 +201,7 @@ background-repeat: no-repeat;
     transform: scaleY(1.2);
 
 }*/
-/*#work1 {
+#work1 {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -210,5 +211,8 @@ background-repeat: no-repeat;
     transform: translateY();
     text-align: center;
     transform: scaleY(1);
-    display: none;*/
+    display: none;
+}
+#myPopup {
+    display: none;
 }
