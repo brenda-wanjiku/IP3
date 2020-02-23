@@ -216,3 +216,6 @@ background-repeat: no-repeat;
 #myPopup {
     display: none;
 }
+@media screen and (min-width:480px) and max {
+    #
+} 
