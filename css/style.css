@@ -77,14 +77,21 @@ h4 {
 }
 .port-img .desc {
     position: absolute;
-    top: 0;
-    display: none;
-    justify-content: center;
-    justify-self: center;
-    align-items: center;
+    top: 0;color: #000;
+    display: flex;
     width: 100%; height:100%;
-    font-size: xx-large;
-    border: 1px solid #000;
+    font-size: xx-large; 
+}
+.port-img .desc p{
+    border: 1px solid #fff;width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.63);
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    
 }
 .row1 {
     margin-bottom: 50px;
@@ -175,5 +182,12 @@ h4 {
     #whatWeDo {
         display: grid;
         
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.container #aboutUs .jumbotron {
+        height: 400px;
+        margin-top: 100px;
     }
 }
