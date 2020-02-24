@@ -22,20 +22,16 @@ $(document).ready(function () {
    $("#work1").fadeOut(3000)
   });*/
 
-    $("form #contactUs").submit(function (event) {
-        let name = $("#inputName").val();
-        let email = $("#inputEmail").val();
-        let message = $("#textMessage").val();
-        var inputDetails = ["inputName", "inputEmail", "textMessage"]
+    $("form").submit(function (event) {
+        let name = document.getElementById("inputName").value;
+        let email = document.getElementById("inputEmail").value;
 
-        if (name === "" || email === "" || message === "") {
-            return alert("Enter details");
+        if (name === "" || email === "") {
+            alert("Please fill in name and email correctly")
         }
-        
-        inputDetails.forEach(function (detail) {
-                if (detail === "inputName") {
-                    alert("Thank you " + name + " we have received your message")
+        else{
+                alert("Thank you " + name + " we have received your message")
                 };
+                event.preventDefault();
             });
-    });
-});
+        });

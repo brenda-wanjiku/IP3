@@ -226,8 +226,10 @@ background-repeat: no-repeat;
     body {
         width: 100%;
         display: grid;
+        font-size: 20px;
     }
     #whatWeDo {
         display: grid;
+        
     }
 }
