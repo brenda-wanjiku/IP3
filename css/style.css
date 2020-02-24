@@ -4,7 +4,10 @@ body {
 }
 .container {
     text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
+
 #Delani {
      background: url(../backgrounds/h_img.jpg);
      background-size:cover ; 
@@ -20,7 +23,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    margin: 50px;
+    margin: 60px;
 }
 #services{
     background: url(../backgrounds/s_image.jpg);
@@ -50,7 +53,10 @@ h3 {
     font-weight: bolder;
 }
 
-
+h4 {
+    font-weight: bolder;
+    font-size: 20px;
+}
 .jumbotron {
     background-color: white;
     height: 300px;
@@ -174,11 +180,11 @@ background-repeat: no-repeat;
     opacity: 1;
 }
 .icon {
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 20px;
 }
 .icons p {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 /*#work1 {
     display: none;
@@ -216,6 +222,8 @@ background-repeat: no-repeat;
 #myPopup {
     display: none;
 }
-@media screen and (min-width:480px) and max {
-    #
+@media screen and (min-width:480px) and {
+ .form-row {
+     width: 100%;
+ }
 } 
