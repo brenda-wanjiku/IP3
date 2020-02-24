@@ -64,84 +64,28 @@ h4 {
     line-height: 40px;
     text-overflow: ellipsis;
 }
-
-.img1{
-border: solid white;
-background-image: url(../portfolio/work4.jpg);
-background-size: contain;
-height: 200px;
-width: 150px;
-background-repeat: no-repeat;
-
+.port-img img{
+    width: 90%;
 }
-
-.img2{
-    border: solid white;
-    background-image: url(../portfolio/work3.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
- 
-    }  
-.img3{
-    border: solid white;
-    background-image: url(../portfolio/work2.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
-   
-    }  
-
-.img4 {
-    border: solid white;
-    background-image: url(../portfolio/work1.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
-   
-    }  
-
-.img5{
-    border: solid white;
-    background-image: url(../portfolio/work5.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
-
-    }  
-
-.img6 {
-    border: solid white;
-    background-image: url(../portfolio/work6.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
-    }  
-.img7 {
-    border: solid white;
-    background-image: url(../portfolio/work7.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;
+.port-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.port-img {
+    padding: 10px;
 }
-
-.img8 {
-    border: solid white;
-    background-image: url(../portfolio/work8.jpg);
-    background-size: contain;
-    height: 200px;
-    width: 150px;
-    background-repeat: no-repeat;   
+.port-img .desc {
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    width: 100%; height:100%;
+    font-size: xx-large;
+    border: 1px solid #000;
 }
-
-
-
 .row1 {
     margin-bottom: 50px;
 }

@@ -16,15 +16,18 @@ $(document).ready(function () {
         $(".clickable").toggle()
 
     });
-    /* $(".img1").hover(function () {
-       $("#work1").fadeIn("slow")
-   });
-   $("#work1").fadeOut(3000)
-  });*/
+    
+    $("div.port-img").hover(function(){
+        //alert("in");
+        $(this).find("div.desc").css({"display":"flex"});
+    },function(){
+        //alert("out");
+        $(this).find("div.desc").fadeOut();
+    });
 
     $("form").submit(function (event) {
-        let name = document.getElementById("inputName").value;
-        let email = document.getElementById("inputEmail").value;
+        let name = document.getElementById("#inputName").value;
+        let email = document.getElementById("#inputEmail").value;
 
         if (name === "" || email === "") {
             alert("Please fill in name and email correctly")
