@@ -39,6 +39,7 @@ The jQuery library contains the following features:
 -AJAX
 -Utilities
 
+Mail Chimp Api is used to send user message and is directly linked to the host's email address. 
 ## The end is near
 
 Actually, now the end is here.
