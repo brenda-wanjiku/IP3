@@ -56,6 +56,7 @@ h3 {
 h4 {
     font-weight: bolder;
     font-size: 20px;
+    text-align: center;
 }
 .jumbotron {
     background-color: white;
@@ -183,8 +184,11 @@ h4 {
 .img1 :hover {
     opacity: 1;
 }
-.icon {
+.icons{
+    text-align: center;
     margin-top: 5px;
+}
+.icon {
     padding: 20px;
 }
 .icons p {
