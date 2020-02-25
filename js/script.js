@@ -1,37 +1,40 @@
 $(document).ready(function () {
+
+    $("#submit").click(function () {
+       
+        let name = $("#inputName").val();
+        let email =$("#inputEmail").val();
+        if (name && email !== null){
+          alert ("Hello " + name + " We have received your feedback")
+        }else {
+            return alert ("You must fill in your data")
+        }
+                
+        });
+
+
     $(".designBlock").click(function () {
-        $("#design").toggle()
-        $(".clickable").toggle()
+        $("#design").toggle();
+        $(".clickable").toggle();
 
     });
 
     $(".developmentBlock").click(function () {
-        $("#development").toggle()
-        $(".clickable").toggle()
+        $("#development").toggle();
+        $(".clickable").toggle();
     });
 
     $(".productBlock").click(function () {
-        $("#product").toggle()
-        $(".clickable").toggle()
+        $("#product").toggle();
+        $(".clickable").toggle();
 
     });
     
-    $("div.port-img").hover(function(){
-        $(this).find("div.desc").css({"display":"flex"});
-    },
-    function(){
-        $(this).find("div.desc").fadeOut();
+    $('.col-md-3').mouseover(function () {
+        $(this).css({ 'opacity': '.6', 'color': 'black', 'display': 'block', 'justifyContent: ': 'center' });
+        $(this).children('span.text').show();
+    }).mouseout(function () {
+        $(this).css({ 'opacity': '1' });
+        $(this).children('span.text').hide();
     });
-
-    $("#form").submit(function () {
-        let name = document.getElementById("#inputName").value;
-        let email = document.getElementById("#inputEmail").value;
-        console.log(email, name)
-        if (name === "" || email === "") {
-            alert("Please fill in name and email correctly")
-        }
-        else{
-                alert("Thank you " + name + " we have received your message")
-                };
-            });
-        });
+});
