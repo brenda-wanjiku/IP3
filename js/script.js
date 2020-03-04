@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $("#submit").click(function () {
        
         let name = $("#inputName").val();
@@ -21,12 +20,12 @@ $(document).ready(function () {
 
     $(".developmentBlock").click(function () {
         $("#development").toggle();
-        $(".clickable").toggle();
+        $(".click").toggle();
     });
 
     $(".productBlock").click(function () {
         $("#product").toggle();
-        $(".clickable").toggle();
+        $(".clicka").toggle();
 
     });
     

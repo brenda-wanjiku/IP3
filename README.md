@@ -1,53 +1,26 @@
 # Delani studio
 ### This is a Portfolio webpage that showcases what Delani studios has to offer and the projects they have done.
 It takes in comments or messages the user want to give in the "Contact us" section. 
-##### By **Brenda Mwangi**
-##Setup Installation Requirements
-* Ubuntu studio
-* Visual Studio Code
-* Bootstrap
-* Javascript
-* Jquery 
-Because this stuff is important.*HTML and CSS, Javascript and Jquery* are an essential part** of your learning curve.
+## By **Brenda Mwangi**
 
- First need to install Node.js—head over to http://www.nodejs.org in order to download the package for your chosen platform.
-  Nodejs to help you check if your JS script is running.
+##Description
+The Delani website has the following features:
+*About us section 
+*Services section which has a short description of the services offered
+*Portfolio section showing some of the projects done by Delani studios
+*Contact section for the user to send messages to Delani. The user gets an email through Mail Chimp.
 
-Fire up a Node Command Prompt and then change to your project folder.
-Enter this command: npm install jquery.
-Node will fetch and install jQuery—it displays a confirmation message when the installation is complete.
+##Setup Installation
+Git clone 
+-Run the link on the repository
 
-Create a HTML file, JS file and CSS file. We will edit these files using Visual Studio code.
-Ensure that a Bootstrap, JS file, CSS file and the Jquery file is link to your html.
-
-HTML, short for *HyperText Markup Language*, consists of these things called tags, which are words written between.
-** For the HTML file use a form from bootstrap. Ensure your Bootstrap.css is linked to your HtML file through <link href="">
-Create divs,rows,columns and input as desired.
-
-The Style.css file will be used to edit our website and make it visually appealing.
-
-** For my Js file, I wrote a function that will be able to submit my form and give a pop up alert that the user's message has been received.
-
-jQuery is a lightweight, "write less, do more", JavaScript library.
-One of the ways I used jQuery is to introduce the toggle method to display information on Delani studio when the image is clicked upon. 
-The jQuery library contains the following features:
-
--HTML/DOM manipulation
--CSS manipulation
--HTML event methods
--Effects and animations
--AJAX
--Utilities
-
-Mail Chimp Api is used to send user message and is directly linked to the host's email address. 
-## The end is near
-
-Actually, now the end is here.
-
-You've learned pretty much all that I can teach you.  Congratulations.
-Show off your website to your friends, and be proud of what you've done!  
-And with that, I'm signing off.
-Thanks for reading.
+##Technologies used
+HTML
+CSS
+Javascript
+Mail chimp
+GIT
+Github
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
